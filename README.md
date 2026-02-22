@@ -24,7 +24,7 @@ graph TD
         Web --> Gunicorn[Gunicorn + Gevent]
         Gunicorn -- WebSockets <br/> port 5000 --> Browser[Client Dashboard]
     end
-
+```
 ✨ Key Engineering Features
 💻 Software Development (Dev)
 Object-Oriented Architecture: Penggunaan class (DualROIDetector, FlaskWebInterface) untuk enkapsulasi logika, state management, dan kode yang modular.
