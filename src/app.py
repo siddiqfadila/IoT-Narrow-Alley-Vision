@@ -1,3 +1,4 @@
+#/home/pi/camera_project/src/motion_detector.py
 import os
 import time
 import socket
@@ -165,3 +166,4 @@ if __name__ == '__main__':
             debug=False
 
         )
+
