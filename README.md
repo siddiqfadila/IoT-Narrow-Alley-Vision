@@ -1,4 +1,5 @@
 # Final-Project
+**Aajskhjkash**
 📷 IoT Real-Time Motion Monitoring System (Edge Deployment) Sistem Computer Vision berbasis Internet of Things (IoT) untuk mendeteksi pergerakan secara real-time menggunakan algoritma Dual Region of Interest (ROI). Proyek ini dirancang secara modular dengan arsitektur berorientasi objek (OOP) di Python, dan di-deploy langsung pada edge device (Raspberry Pi 3B+ dengan OS Debian Bullseye) menggunakan integrasi layanan background Linux.
 
 🏗️ System Architecture & Workflow (Tambahkan gambar bagan arsitektur di sini jika ada)
