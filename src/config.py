@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 # =============================================================================
 # CONFIGURATION FILE
 # -----------------------------------------------------------------------------
@@ -41,3 +39,4 @@ ALARM_DURATION_SECONDS = 5.0
 # Waktu maksimum (detik) antara deteksi di ROI 1 dan ROI 2
 # untuk dianggap sebagai satu sekuens gerakan yang valid.
 SEQUENCE_TIMEOUT_SECONDS = 2.0
+
