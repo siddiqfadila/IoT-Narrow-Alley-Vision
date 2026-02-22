@@ -10,17 +10,17 @@ Sistem memisahkan beban kerja antara pemrosesan sensor (Core) dan antarmuka peng
 
 ```mermaid
 graph TD
-    subaxis Hardware
+    subgraph Hardware
         Cam[PiCamera] --> Core
         Core --> Relay[GPIO Relay/Lamp]
         Core --> Buzzer[GPIO Buzzer]
     end
 
-    subaxis Core Processing Daemon
+    subgraph Core Processing Daemon
         Core[motion_detector.py<br/>TCP Server] -- Local Socket <br/> port 8001 --> Web[app.py<br/>TCP Client]
     end
 
-    subaxis Web Server Interface
+    subgraph Web Server Interface
         Web --> Gunicorn[Gunicorn + Gevent]
         Gunicorn -- WebSockets <br/> port 5000 --> Browser[Client Dashboard]
     end
